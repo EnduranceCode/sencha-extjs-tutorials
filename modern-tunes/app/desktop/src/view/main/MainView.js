@@ -1,19 +1,19 @@
 Ext.define('ModernTunes.view.main.MainView', {
-    extend: 'Ext.Container',
-    xtype: 'mainview',
-    controller: 'mainviewcontroller',
-    viewModel: {
-        type: 'mainviewmodel'
+  extend: 'Ext.tab.Panel',
+  xtype: 'mainview',
+  controller: 'mainviewcontroller',
+  viewModel: {
+    type: 'mainviewmodel',
+  },
+  tabBarPosition: 'bottom',
+  items: [
+    {
+      title: 'Thumbnails',
+      html: '<h1>tunes view</h1>',
     },
-    requires: [
-    'Ext.layout.Fit'
-    ],
-    layout: 'fit',
-    items: [
-        { xtype: 'navview',    reference: 'navview',    docked: 'left',   bind: {width:  '{navview_width}'}, listeners: { select: "onMenuViewSelectionChange"} },
-        { xtype: 'headerview', reference: 'headerview', docked: 'top',    bind: {height: '{headerview_height}'} },
-        { xtype: 'footerview', reference: 'footerview', docked: 'bottom', bind: {height: '{footerview_height}'} },
-        { xtype: 'centerview', reference: 'centerview' },
-        { xtype: 'detailview', reference: 'detailview', docked: 'right',  bind: {width:  '{detailview_width}'}  },
-    ]
+    {
+      title: 'Grid',
+      html: '<h1>tunes grid</h1>',
+    },
+  ],
 });
