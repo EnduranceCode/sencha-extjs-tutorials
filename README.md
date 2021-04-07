@@ -11,3 +11,7 @@ There's a folder in the root of this repository for each tutorial followed. Each
 ### Getting Started
 
 The code written following the [Getting Started](https://docs.sencha.com/extjs/7.1.0/guides/getting_started/getting_started_with_npm.html) tutorial, available on [Ext JS Documentation](https://docs.sencha.com/extjs/latest/index.html), is stored in the folder [`modern-app`](./modern-app) of this repository.
+
+### Quick Start
+
+The code written following the [Quick Start](https://docs.sencha.com/extjs/7.3.0/guides/tutorials/quick_start/What_You_Will_Be_Coding.html) tutorial, available on [Ext JS Documentation](https://docs.sencha.com/extjs/latest/index.html), is stored in the folder [`modern-tunes`](./modern-tunes) of this repository.
