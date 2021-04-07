@@ -18,8 +18,9 @@ Ext.define('ModernTunes.view.main.MainView', {
       bind: { store: '{tunes}' },
     },
     {
+      xtype: 'tunesgrid',
       title: 'Grid',
-      html: '<h1>tunes grid</h1>',
+      bind: { store: '{tunes}' },
     },
   ],
 });
