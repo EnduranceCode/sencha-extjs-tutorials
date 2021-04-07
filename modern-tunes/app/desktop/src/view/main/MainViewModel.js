@@ -6,6 +6,7 @@ Ext.define('ModernTunes.view.main.MainViewModel', {
     tunes: {
       model: 'ModernTunes.model.Tune',
       autoLoad: true,
+      sorters: ['artist', 'title'],
     },
   },
 });
