@@ -6,7 +6,7 @@ This repository contains **code** written following tutorials while learning abo
 
 There's a folder in the root of this repository for each tutorial followed. Each of those folders contains a project that can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
 
-## Code Tutorials
+## Code Tutorials and Guides
 
 ### Getting Started
 
@@ -15,3 +15,7 @@ The code written following the [Getting Started](https://docs.sencha.com/extjs/7
 ### Quick Start
 
 The code written following the [Quick Start](https://docs.sencha.com/extjs/7.3.0/guides/tutorials/quick_start/What_You_Will_Be_Coding.html) tutorial, available on [Ext JS Documentation](https://docs.sencha.com/extjs/latest/index.html), is stored in the folder [`modern-tunes`](./modern-tunes) of this repository.
+
+### App Architecture
+
+The code written following the [App Architecture](https://docs.sencha.com/extjs/7.3.0/guides/application_architecture/application_architecture.html) guide, available on [Ext JS Documentation](https://docs.sencha.com/extjs/latest/index.html), is stored in the folder [`app-architecture`](./app-architecture) of this repository.
