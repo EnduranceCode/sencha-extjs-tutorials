@@ -3,7 +3,6 @@ Ext.define('pk-conference-editor.view.main.MainViewController', {
   alias: 'controller.mainviewcontroller',
 
   onButtonClick: function (button) {
-    this.lookupReference('df').setValue(Date.now())
-  }
-
-})
+    this.lookupReference('df').setValue(Date.now());
+  },
+});
