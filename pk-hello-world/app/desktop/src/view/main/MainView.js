@@ -1,26 +1,33 @@
 Ext.define('pk-hello-world.view.main.MainView', {
   extend: 'Ext.Container',
   xtype: 'mainview',
-  controller: 'mainviewcontroller',
-  viewModel: {
-    type: 'mainviewmodel'
-  },
+  scrollable: true,
+  layout: 'fit',
   items: [
     {
-      xtype: 'component',
-      html: '<a style="font-size:24px" target="_blank" href="https://docs-devel.sencha.com/extjs/7.0.0-CE/guides/quick_start/What_You_Will_Be_Coding.html">Quick Start Tutorial Here</a><p>'
+      xtype: 'grid',
+      columns: [
+        {
+          text: 'Title',
+          dataIndex: 'title',
+          flex: 1,
+        },
+        {
+          text: 'Completed',
+          dataIndex: 'completed',
+          xtype: 'checkcolumn',
+        },
+      ],
+      store: {
+        autoLoad: true,
+        autoSync: true,
+        fields: ['title', { name: 'completed', type: 'boolean' }],
+        proxy: {
+          type: 'rest',
+          url: 'https://jsonplaceholder.typicode.com/todos',
+          reader: { type: 'json', root: 'data' },
+        },
+      },
     },
-    {
-      xtype: 'displayfield',
-      reference: 'df',
-      bind: {
-        value: '{clickTime}'
-      }
-    },
-    {
-      xtype: 'button',
-      text: 'Click Me!',
-      handler: 'onButtonClick'
-    }
-  ]
-})
+  ],
+});
