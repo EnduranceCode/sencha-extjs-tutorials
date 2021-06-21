@@ -19,3 +19,7 @@ The code written following the [Quick Start](https://docs.sencha.com/extjs/7.3.0
 ### App Architecture
 
 The code written following the [App Architecture](https://docs.sencha.com/extjs/7.3.0/guides/application_architecture/application_architecture.html) guide, available on [Ext JS Documentation](https://docs.sencha.com/extjs/latest/index.html), is stored in the folder [`app-architecture`](./app-architecture) of this repository.
+
+### Peter Kellner's Hello World App
+
+The code written to replicate the first application example of the course [ExtJS Desktop Fundamentals](https://app.pluralsight.com/library/courses/extjs-desktop-fundamentals/recommended-courses) presented by [Peter Kellner](https://app.pluralsight.com/profile/author/peter-kellner) at [Pluralsight](https://www.pluralsight.com), is stored in the folder [`pk-hello-world`](./pk-hello-world) of this repository.
