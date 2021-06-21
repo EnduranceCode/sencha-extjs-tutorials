@@ -23,3 +23,7 @@ The code written following the [App Architecture](https://docs.sencha.com/extjs/
 ### Peter Kellner's Hello World App
 
 The code written to replicate the first application example of the course [ExtJS Desktop Fundamentals](https://app.pluralsight.com/library/courses/extjs-desktop-fundamentals/recommended-courses) presented by [Peter Kellner](https://app.pluralsight.com/profile/author/peter-kellner) at [Pluralsight](https://www.pluralsight.com), is stored in the folder [`pk-hello-world`](./pk-hello-world) of this repository.
+
+### Peter Kellner's Conference Editor App
+
+The code written to replicate the Conference Editor application of the course [ExtJS Desktop Fundamentals](https://app.pluralsight.com/library/courses/extjs-desktop-fundamentals/recommended-courses) presented by [Peter Kellner](https://app.pluralsight.com/profile/author/peter-kellner) at [Pluralsight](https://www.pluralsight.com), is stored in the folder [`pk-conference-editor`](./pk-conference-editor) of this repository.
